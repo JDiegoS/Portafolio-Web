@@ -6,7 +6,6 @@ import next2 from './images/next2.png'
 
 function ProjectItem(props){
 
-    console.log(props.page)
     var trans = 100
     if (props.page == props.item.id){
         
@@ -43,8 +42,6 @@ function ProjectItem(props){
         displi2 = 'initial'
         displi3 = 'none'
     }
-    console.log(props.item.description)
-    console.log(props.page)
 
     return(
         <div style={{display: "inline-block", width: "100%", height: "100%"}}>
